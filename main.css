@@ -25,3 +25,23 @@ form {
     padding: 20px 0;
     text-align: center;
 }
+
+form h2 {
+    margin-bottom: 16px;
+}
+
+input, button {
+    padding: 8px;
+}
+
+button {
+    background: #009432;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+#btn-cancelar {
+    background: #ff0000;
+}
