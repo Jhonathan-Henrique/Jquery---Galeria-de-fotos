@@ -1,9 +1,13 @@
 $(document).ready(function() {
    $('header button').click(function(){
-      alert('teste')
+      $('form').slideDown()
    })
 
    $('form').on('submit', function(e){
       e.preventDefault()
+   })
+
+   $('#btn-cancelar').click(function(){
+      $('form').slideUp()
    })
 })
