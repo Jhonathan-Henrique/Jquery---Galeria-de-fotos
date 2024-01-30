@@ -46,3 +46,41 @@ button {
 #btn-cancelar {
     background: #ff0000;
 }
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul li {
+    max-width: 25%;
+    list-style: none;
+    position: relative;
+    max-width: 280px;
+    overflow-y: hidden;
+}
+
+ul li img {
+    height: 180px;
+    width: 100%;
+}
+
+.overlay-link-img {
+    padding: 16px;
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    transition: all ease 0.5s;
+}
+
+.overlay-link-img a {
+    color: #fff;
+    text-decoration: none;
+}
+
+ul li:hover .overlay-link-img {
+    opacity: 1;   
+}
