@@ -86,13 +86,24 @@ ul li:hover .overlay-link-img {
 }
 
 @media screen and (max-width: 768px) {
+    body {
+        background-color: lightblue;
+    }
+
     header {
         align-items: center;
         display: flex;
         flex-direction: column;
     }
 
+    ul li {
+        margin: 0 auto;
+        max-width: 100%;
+        width: 90%;
+    }
+
     ul li img {
-        width: 200px;
+        width: 100%;
+        
     }
 }
