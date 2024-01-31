@@ -1,3 +1,3 @@
 # JQuery: Galeria-de-fotos
 #ACESSE AQUI: 
-john-jquery-galeria-de-fotos.vercel.app
+<http://john-jquery-galeria-de-fotos.vercel.app>
